@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <title>Your page title here :)</title>
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" href="css/main.min.css">
+
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div style="display:none;">
+					<div class="hot" style="display:table-cell;width:100px;height:100px"></div>
+					<div class="warm" style="display:table-cell;width:100px;height:100px"></div>
+					<div class="slightly-warm" style="display:table-cell;width:100px;height:100px"></div>
+					<div class="not-below-zero" style="display:table-cell;width:100px;height:100px"></div>
+					<div class="cold" style="display:table-cell;width:100px;height:100px"></div>
+					<div class="very-cold" style="display:table-cell;width:100px;height:100px"></div>
+				</div>
+			</header>
+			<div role="main">
+				<article class="search__container">
+					<header>
+						<h1>How's the weather in....</h1>
+					</header>
+					<form class="search__form">
+						<div class="search__form-inner">
+							<label class="search__label">Location:</label>
+							<span class="search__input-span"><input class="search__input-field" data-js="search-city" type="text" autofocus /></span>
+							<span class="triangle-topright"></span>
+
+							<button class="search__submit-button" data-js="search-button"><i>+</i></button>
+						</div>
+					</form>
+					<div class="parallelogram"></div>
+					
+				</article>
+				<article class="results" data-js="results">
+
+				</article>
+				<!--
+				<div class="stage"> 
+					<div class="cube"> 
+						<figure class="back"></figure> 
+						<figure class="top"></figure> 
+						<figure class="bottom"></figure> 
+						<figure class="left"></figure> 
+						<figure class="right"></figure> 
+						<figure class="front"></figure> 
+					</div> 
+				</div>
+				-->
+			</div>
+		</div>
+		<div class="test-container">test</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
